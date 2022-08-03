@@ -1,12 +1,12 @@
 <template>
-  <div class="hello world">
+  <div class="hello world ---">
     <h1>{{ msg }}</h1>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: '君不见黄河之水天上来，君不见高堂明镜悲白发！',
   props: {
     msg: String
   }
