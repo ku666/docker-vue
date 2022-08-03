@@ -1,5 +1,5 @@
-HUBDOMAIN=wcz666/test-jenkins
-TESTIMAGE=$(HUBDOMAIN):latest
+MAIN=wcz666/docker-vue
+IMAGE=$(MAIN):latest
 
 define buildFunction
 	rm -rf ./dist
@@ -10,4 +10,4 @@ define buildFunction
 endef
 
 image:
-	$(call buildFunction, $(TESTIMAGE))
+	$(call buildFunction, $(IMAGE))
