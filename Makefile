@@ -6,7 +6,7 @@ define buildFunction
 	npm install
 	yarn run build
 	docker build -t $(1) .
-	docker push $(1)
+	#docker push $(1)
 endef
 
 image:
